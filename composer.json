@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\Controllers\\": "App/Controllers/"
+        }
+},
+    "require": {
+        "eftec/bladeone": "^3.36",
+        "symfony/yaml": "^5.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
